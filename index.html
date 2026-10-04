@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan K Birhane | Material Engineer & Construction Materials Quality Control</title>
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Professional portfolio of Nathan Birhane, a committed Material Engineer specializing in construction materials testing, concrete quality control, batching plant operations, and site QA/QC." />
+  <meta name="keywords" content="Nathan Birhane, Material Engineer, Construction Materials, Quality Control, Concrete Testing, Batching Plant, Ethiopia, Civil Engineering, COTM, ASTM Standards" />
+  <meta name="author" content="Nathan Birhane" />
+  <meta property="og:title" content="Nathan Birhane | Material Engineer & Construction QC" />
+  <meta property="og:description" content="Portfolio of Nathan Birhane showcasing experience in materials testing, concrete quality control, batching plant operations, and site engineering." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#E87524" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0B0F17" media="(prefers-color-scheme: dark)" />
+
+  <!-- Standard Google Fonts with System Font Fallback in CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Master Cross-Browser CSS Stylesheet (Zero external runtime dependencies) -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       CLEAN, SLIM STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <header id="site-header" class="navbar-slim">
+    <div class="container navbar-inner">
+      
+      <!-- Brand Logo / Name on Left -->
+      <a href="#home" class="brand-logo">
+        <div class="brand-avatar">
+          <img src="assets/images/image.png" alt="Nathan Birhane" class="brand-avatar-img" onerror="this.style.display='none';this.parentElement.setAttribute('data-initials','NB')" />
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Nathan Birhane</span>
+          <span class="brand-title">Material Engineer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#technical-skills" class="nav-link">Skills</a>
+        <a href="#software-skills" class="nav-link">Software</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Utilities: Theme Toggle & CV View -->
+      <div class="navbar-actions">
+        
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="btn btn-secondary btn-icon" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+          <span id="theme-toggle-icon" data-icon="moon"></span>
+        </button>
+
+        <!-- View CV Button — opens real PDF -->
+        <a href="assets/docs/Nathan_Birhane_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm navbar-cv-btn">
+          <span class="text-orange" data-icon="file-text"></span>
+          <span>View CV</span>
+        </a>
+
+        <!-- Contact Button -->
+        <a href="#contact" class="btn btn-primary btn-sm navbar-contact-btn">
+          <span>Contact Me</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" id="mobile-menu-toggle" class="btn btn-secondary btn-icon mobile-menu-toggle" aria-label="Toggle Navigation" aria-expanded="false" aria-controls="mobile-menu">
+          <span data-icon="menu"></span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="mobile-menu-drawer">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Me</a>
+      <a href="#experience" class="nav-link">Work Experience</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#technical-skills" class="nav-link">Technical Skills</a>
+      <a href="#software-skills" class="nav-link">Software Skills</a>
+      <a href="#certifications" class="nav-link">Certifications & Training</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <div class="flex gap-2" style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--border-light);">
+        <a href="assets/docs/Nathan_Birhane_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm w-full">View CV</a>
+        <button onclick="window.openCalculatorModal()" class="btn btn-secondary btn-sm w-full">QC Tool</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" aria-label="Main content">
+    <!-- =========================================================================
+         1. HERO SECTION (HOME)
+         ========================================================================= -->
+    <section id="home" class="hero-wrapper">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Professional Details & Actions -->
+          <div class="flex flex-col gap-3">
+            
+            <!-- Professional Availability Badge -->
+            <div class="technical-pill" style="align-self: flex-start; background: var(--bg-surface); padding: 0.35rem 0.75rem;">
+              <span style="width: 8px; height: 8px; border-radius: 50%; background: #10B981; display: inline-block;"></span>
+              <span id="hero-location" class="font-bold text-primary">Ethiopia</span>
+              <span class="text-muted">•</span>
+              <span>Available for Material Engineering & QC Opportunities</span>
+            </div>
+
+            <!-- Name and Job Titles -->
+            <div>
+              <h1 class="font-extrabold text-primary" style="font-size: 2.75rem; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 0.35rem;">
+                <span id="hero-name">Nathan Birhane</span>
+              </h1>
+              <p class="text-xl font-bold text-orange" id="hero-main-title">
+                Material Engineer
+              </p>
+              <p class="text-xs text-secondary font-medium" style="margin-top: 0.2rem;" id="hero-subtitle">
+                Construction Materials Quality Control | Concrete Technology | Quality Assurance
+              </p>
+            </div>
+
+            <!-- Concise Professional Introduction -->
+            <p class="text-sm text-secondary leading-relaxed" style="max-width: 540px;" id="hero-bio">
+              Committed and hardworking Material Engineer with experience in construction materials testing, concrete quality control, batching plant operations, construction site supervision, and quality assurance.
+            </p>
+
+            <!-- Clear Action Buttons -->
+            <div class="flex items-center gap-2 flex-wrap hero-buttons-row" style="margin-top: 0.5rem;">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <span data-icon="arrow-right"></span>
+              </a>
+
+              <a href="assets/docs/Nathan_Birhane_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <span class="text-orange" data-icon="download"></span>
+                <span>Download CV</span>
+              </a>
+
+              <button onclick="window.openCalculatorModal()" class="btn btn-secondary">
+                <span class="text-orange" data-icon="flask-conical"></span>
+                <span>Interactive QC Tool</span>
+              </button>
+
+              <a href="#contact" class="btn-link text-sm">
+                <span>Contact Me</span>
+                <span data-icon="arrow-up-right"></span>
+              </a>
+
+              <a id="hero-linkedin-btn" href="https://www.linkedin.com/in/nathan-birhane29/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="color: var(--accent-blue);" aria-label="LinkedIn Profile">
+                <span data-icon="linkedin"></span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+
+            <!-- Quick Engineering Highlights Bar -->
+            <div class="grid grid-3 gap-2 hero-highlight-cards" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-light); max-width: 500px;">
+              <div class="card-clean" style="padding: 0.65rem;">
+                <div class="font-mono font-bold text-orange" style="font-size: 0.72rem;">QA / QC</div>
+                <div class="text-xs text-secondary" style="margin-top: 0.15rem;">Materials Testing</div>
+              </div>
+              <div class="card-clean" style="padding: 0.65rem;">
+                <div class="font-mono font-bold text-orange" style="font-size: 0.72rem;">BATCHING</div>
+                <div class="text-xs text-secondary" style="margin-top: 0.15rem;">Concrete Plant QC</div>
+              </div>
+              <div class="card-clean" style="padding: 0.65rem;">
+                <div class="font-mono font-bold text-orange" style="font-size: 0.72rem;">SITE ENGR</div>
+                <div class="text-xs text-secondary" style="margin-top: 0.15rem;">Multi-Story Supervision</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Portrait Frame -->
+          <div>
+            <div class="hero-portrait-frame">
+              <div class="hero-portrait-circle">
+                <img id="hero-avatar-img" 
+                     src="assets/images/image.png" 
+                     alt="Nathan Birhane - Material Engineer" 
+                     class="hero-portrait-img" />
+              </div>
+              <!-- Name caption below circle -->
+              <div class="flex items-center gap-2" style="justify-content: center;">
+                <div style="width: 8px; height: 8px; border-radius: 50%; background: #10B981; flex-shrink: 0;"></div>
+                <div style="text-align: center;">
+                  <strong class="text-sm text-primary" style="display: block; line-height: 1.3;">Nathan Birhane</strong>
+                  <span style="font-size: 0.72rem; color: var(--text-secondary); font-family: var(--font-mono); display: block;">Material Engineer · Ethiopia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. ABOUT ME SECTION
+         ========================================================================= -->
+    <section id="about" class="section-padding" style="background: var(--bg-surface); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><span data-icon="user"></span> Professional Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to material integrity, strict specification compliance, and reliable construction quality.</p>
+        </div>
+
+        <div class="grid grid-12 gap-6" style="margin-bottom: 2rem; align-items: start;">
+          <div class="col-span-7 card-clean">
+            <h3 class="text-base font-bold text-primary flex items-center gap-2" style="margin-bottom: 0.5rem;">
+              <span class="text-orange" data-icon="compass"></span>
+              Professional Summary
+            </h3>
+            <p id="about-bio-text" class="text-sm text-secondary leading-relaxed" style="margin-bottom: 1rem;">
+              <!-- Injected via JS -->
+            </p>
+            <div style="padding: 0.75rem; border-radius: var(--radius-sm); background: var(--bg-subtle); border: 1px solid var(--border-light); font-size: 0.75rem; color: var(--text-secondary);">
+              <strong class="text-primary block" style="margin-bottom: 0.2rem;">Core Engineering Focus:</strong>
+              Quality control in construction materials is fundamental to structural longevity. Every batch of concrete, sieve analysis, and compressive strength test performed upholds structural safety and contractual compliance.
+            </div>
+          </div>
+
+          <div class="col-span-5 card-clean">
+            <h3 class="text-base font-bold text-primary flex items-center gap-2" style="margin-bottom: 0.5rem;">
+              <span class="text-orange" data-icon="file-text"></span>
+              Testing Standards & Methods
+            </h3>
+            <p class="text-xs text-secondary" style="margin-bottom: 0.75rem;">Laboratory and field testing procedures executed in standard professional practice:</p>
+            <div id="about-standards-list">
+              <!-- Injected via JS -->
+            </div>
+          </div>
+        </div>
+
+        <div id="about-competencies-grid" class="grid grid-4 gap-4">
+          <!-- Injected via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. WORK EXPERIENCE SECTION
+         ========================================================================= -->
+    <section id="experience" class="section-padding" style="border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><span data-icon="briefcase"></span> Career History</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">Engineering positions spanning ready-mix concrete batching plants, building projects, and aviation infrastructure.</p>
+        </div>
+
+        <div class="grid grid-12 gap-6">
+          <div class="col-span-4" style="display: flex; flex-direction: column; gap: 0.5rem;" id="experience-company-tabs">
+            <!-- Injected via JS -->
+          </div>
+
+          <div class="col-span-8" id="experience-detail-display">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. EDUCATION SECTION
+         ========================================================================= -->
+    <section id="education" class="section-padding" style="background: var(--bg-surface); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Higher education background in construction technology, materials science, and management.</p>
+        </div>
+
+        <div id="education-content" style="max-width: 820px; margin: 0 auto;">
+          <!-- Injected via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. PROJECTS SECTION
+         ========================================================================= -->
+    <section id="projects" class="section-padding" style="border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+         
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Key construction projects and industrial quality control assignments.</p>
+        </div>
+
+        <!-- Project Search & Filter Toolbar -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-3" style="max-width: 900px; margin: 0 auto 2rem auto;">
+          <div style="position: relative; width: 100%; max-width: 280px;">
+            <input type="text" id="project-live-search" class="form-input text-xs" placeholder="Search projects by keyword, role, or test..." style="padding-left: 1.75rem;" />
+            <span style="position: absolute; left: 0.5rem; top: 50%; transform: translateY(-50%); color: var(--text-muted);" data-icon="search"></span>
+          </div>
+
+          <div id="project-filters" class="flex items-center gap-1 flex-wrap justify-center">
+            <!-- Injected via JS -->
+          </div>
+
+          <span id="projects-count-badge" class="font-mono text-xs text-muted">
+            3 Projects
+          </span>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projects-grid" class="grid grid-3 gap-6">
+          <!-- Injected via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. TECHNICAL SKILLS SECTION
+         ========================================================================= -->
+    <section id="technical-skills" class="section-padding" style="background: var(--bg-surface); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Materials testing, mix proportioning, laboratory procedures, and site quality assurance.</p>
+        </div>
+
+        <div id="technical-skills-grid" class="grid grid-4 gap-4">
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. SOFTWARE SKILLS SECTION
+         ========================================================================= -->
+    <section id="software-skills" class="section-padding" style="border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Software Skills</h2>
+          <p class="section-subtitle">Technical drafting and analytical documentation software utilized in engineering workflows.</p>
+        </div>
+
+        <div id="software-skills-grid" class="grid grid-2 gap-6" style="max-width: 820px; margin: 0 auto;">
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. CERTIFICATIONS AND TRAINING SECTION
+         ========================================================================= -->
+    <section id="certifications" class="section-padding" style="background: var(--bg-surface);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Certifications & Training</h2>
+          <p class="section-subtitle">Professional practice training and future accreditation placeholders.</p>
+        </div>
+
+        <div id="certifications-grid" class="grid grid-3 gap-4">
+          <!-- Injected via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. ACHIEVEMENTS SECTION
+         ========================================================================= -->
+    <section id="achievements" class="section-padding" style="border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Achievements</h2>
+          <p class="section-subtitle">Verified professional milestones in quality consistency and structural supervision.</p>
+        </div>
+
+        <div id="achievements-grid" class="grid grid-2 gap-4" style="max-width: 880px; margin: 0 auto; justify-items: center;">
+          <!-- Injected via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         10. DOWNLOAD CV CALL TO ACTION
+         ========================================================================= -->
+    <section id="download-cv" class="section-padding" style="background: var(--bg-surface); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div class="card-clean" style="max-width: 780px; margin: 0 auto; text-align: center; padding: 2.5rem 1.5rem; background: var(--bg-page);">
+          
+          <div style="width: 3rem; height: 3rem; border-radius: var(--radius-md); background: var(--accent-orange-subtle); color: var(--accent-orange); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem auto;">
+            <span data-icon="file-text"></span>
+          </div>
+
+          <h2 class="text-2xl font-bold text-primary" style="margin-bottom: 0.5rem;">
+            Looking for a Dedicated Material Engineer?
+          </h2>
+          <p class="text-secondary text-sm leading-relaxed" style="max-width: 520px; margin: 0 auto 1.5rem auto;">
+            Download my professional curriculum vitae or view an on-screen printable version detailing all laboratory testing experience, batching plant operations, and project history.
+          </p>
+
+          <div class="flex items-center justify-center gap-3 flex-wrap">
+            <a href="assets/docs/Nathan_Birhane_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <span data-icon="file-text"></span>
+              <span>View CV</span>
+            </a>
+
+            <a href="assets/docs/Nathan_Birhane_CV.pdf" download="Nathan_Birhane_CV.pdf" class="btn btn-secondary">
+              <span class="text-orange" data-icon="download"></span>
+              <span>Download CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         11. CONTACT SECTION
+         ========================================================================= -->
+    <section id="contact" class="section-padding" style="border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        
+        <div class="section-header">
+          
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Reach out for professional inquiries, engineering consultations, or project collaborations.</p>
+        </div>
+
+        <div class="grid grid-12 gap-6" style="max-width: 980px; margin: 0 auto;">
+          
+          <!-- Contact Info Cards (5 cols) -->
+          <div class="col-span-5" style="display: flex; flex-direction: column; gap: 0.75rem;">
+            
+            <div class="card-clean">
+              <div class="flex items-start gap-3">
+                <div style="width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm); background: #F0F9FF; color: var(--accent-blue); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                  <span data-icon="linkedin"></span>
+                </div>
+                <div class="truncate">
+                  <span class="text-xs font-mono text-secondary uppercase block" style="font-size: 0.68rem;">LinkedIn Profile</span>
+                  <a id="contact-linkedin-link" href="https://www.linkedin.com/in/nathan-birhane29/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-primary truncate block" style="margin-top: 0.15rem;">
+                    linkedin.com/in/nathan-birhane29
+                  </a>
+                  <span class="text-xs text-secondary" style="font-size: 0.7rem; display: block; margin-top: 0.15rem;">Connect for engineering inquiries</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-clean">
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-3 truncate">
+                  <div style="width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm); background: var(--accent-orange-subtle); color: var(--accent-orange); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <span data-icon="mail"></span>
+                  </div>
+                  <div class="truncate">
+                    <div class="flex items-center gap-1">
+                      <span class="text-xs font-mono text-secondary uppercase block" style="font-size: 0.68rem;">Email Address</span>
+                    </div>
+                    <span id="contact-email-text" class="text-xs font-bold text-primary truncate block" style="margin-top: 0.15rem;">
+                      nathankasahun@gmail.com
+                    </span>
+                    
+                  </div>
+                </div>
+                <button onclick="copyToClipboard(PORTFOLIO_DATA.personal.email, 'Email address')" class="btn btn-secondary btn-sm" title="Copy Email" style="padding: 0.35rem;">
+                  <span data-icon="copy"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-clean">
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-start gap-3">
+                  <div style="width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm); background: #F0FDF4; color: var(--accent-green); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <span data-icon="phone"></span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1">
+                      <span class="text-xs font-mono text-secondary uppercase block" style="font-size: 0.68rem;">Direct Phone</span>
+                      
+                    </div>
+                    <span id="contact-phone-text" class="text-xs font-bold text-primary block" style="margin-top: 0.15rem;">
+                      
+                    </span>
+                    
+                  </div>
+                </div>
+                <button onclick="copyToClipboard(PORTFOLIO_DATA.personal.phone, 'Phone number')" class="btn btn-secondary btn-sm" title="Copy Phone" style="padding: 0.35rem;">
+                  <span data-icon="copy"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-clean">
+              <div class="flex items-start gap-3">
+                <div style="width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm); background: #FFFBEB; color: #D97706; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                  <span data-icon="map-pin"></span>
+                </div>
+                <div>
+                  <span class="text-xs font-mono text-secondary uppercase block" style="font-size: 0.68rem;">Location</span>
+                  <span id="contact-location-text" class="text-xs font-bold text-primary block" style="margin-top: 0.15rem;">
+                    Ethiopia
+                  </span>
+                  <span class="text-xs text-secondary" style="font-size: 0.7rem; display: block; margin-top: 0.15rem;">Available for national & regional projects</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form (7 cols) -->
+          <div class="col-span-7 card-clean">
+            <h3 class="text-base font-bold text-primary flex items-center gap-2" style="margin-bottom: 0.25rem;">
+              <span class="text-orange" data-icon="send"></span>
+              Send a Direct Message
+            </h3>
+            <p class="text-xs text-secondary" style="margin-bottom: 1rem;">
+              Complete the form below to dispatch an email inquiry directly to Nathan Birhane.
+            </p>
+
+            <form id="contact-form">
+              <div class="grid grid-2 gap-3 form-group">
+                <div>
+                  <label class="form-label" for="contact-name">Your Full Name *</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="Nathan B" required />
+                </div>
+                <div>
+                  <label class="form-label" for="contact-email">Your Email Address *</label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="nathan@gmail.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-subject">Inquiry Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Materials Engineer" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Message Details *</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Describe your project, testing requirements, or questions..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full" style="padding: 0.75rem;">
+                <span data-icon="send"></span>
+                <span>Send Message via Email Client</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       CLEAN, PROFESSIONAL FOOTER
+       ========================================================================= -->
+  <footer role="contentinfo" aria-label="Site footer" style="background: #17212B; color: #94A3B8; padding: 2rem 0; font-size: 0.75rem;">
+    <div class="container">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4" style="padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+        
+        <div class="flex items-center gap-2.5">
+          <div style="width: 1.75rem; height: 1.75rem; border-radius: var(--radius-sm); background: var(--accent-orange); color: #fff; font-weight: 700; font-family: var(--font-mono); display: flex; align-items: center; justify-content: center; font-size: 0.75rem;">
+            NB
+          </div>
+          <div>
+            <strong class="text-sm block" style="color: #fff;">Nathan Birhane</strong>
+            <span class="block text-xs" style="color: #94A3B8;">Material Engineer | Construction Materials Quality Control</span>
+          </div>
+        </div>
+
+        <div class="flex items-center flex-wrap gap-3 text-xs font-mono footer-nav-links" style="color: #94A3B8; justify-content: center;">
+          <a href="#about" style="color: inherit; text-decoration: none;">About</a>
+          <a href="#experience" style="color: inherit; text-decoration: none;">Experience</a>
+          <a href="#projects" style="color: inherit; text-decoration: none;">Projects</a>
+          <a href="#technical-skills" style="color: inherit; text-decoration: none;">Skills</a>
+          <a href="#contact" style="color: inherit; text-decoration: none;">Contact</a>
+          <a href="https://www.linkedin.com/in/nathan-birhane29/" target="_blank" rel="noopener noreferrer" style="color: #38BDF8; text-decoration: none;">LinkedIn</a>
+        </div>
+
+        <div>
+          <a href="#home" class="btn btn-secondary btn-sm" style="background: #1E293B; border-color: #334155; color: #E2E8F0;" aria-label="Back to Top">
+            <span data-icon="arrow-up"></span>
+            <span>Top</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2" style="padding-top: 1rem; font-size: 0.7rem; color: #64748B;">
+        <p>© 2026 Nathan Birhane. All rights reserved.</p>
+        <p class="font-mono">Testing Standards: ASTM • BS • EN • ES</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODALS:
+       1. PROJECT DETAIL & DIGITAL CV MODAL
+       2. INTERACTIVE ASTM QC CALCULATOR
+       ========================================================================= -->
+  <div id="modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button id="modal-close-btn" class="btn btn-secondary btn-sm" style="position: absolute; top: 0.75rem; right: 0.75rem; z-index: 20; padding: 0.35rem 0.5rem;" aria-label="Close Modal">
+        <span data-icon="x"></span>
+      </button>
+      <div id="modal-content-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive ASTM QC Calculator Modal -->
+  <div id="qc-calculator-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="qc-modal-title">
+    <div class="modal-dialog" style="max-width: 640px;">
+      <div class="flex items-center justify-between" style="padding: 1rem 1.25rem; border-bottom: 1px solid var(--border-light);">
+        <div class="flex items-center gap-2">
+          <div style="width: 2rem; height: 2rem; border-radius: var(--radius-sm); background: var(--accent-orange-subtle); color: var(--accent-orange); display: flex; align-items: center; justify-content: center;">
+            <span data-icon="flask-conical"></span>
+          </div>
+          <div>
+            <h3 id="qc-modal-title" class="text-sm font-bold text-primary">ASTM C39 & C143 Quality Control Workbench</h3>
+            <p class="text-xs text-secondary font-mono" style="font-size: 0.68rem;">Live Concrete Compressive Strength & Slump Compliance Engine</p>
+          </div>
+        </div>
+        <button onclick="window.closeCalculatorModal()" class="btn btn-secondary btn-sm" style="padding: 0.25rem 0.45rem;">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+
+      <div style="padding: 1.25rem; display: flex; flex-direction: column; gap: 1rem;">
+        <form id="qc-calc-form" class="grid grid-2 gap-3">
+          <div class="form-group">
+            <label class="form-label">Specimen Geometry</label>
+            <select name="specimenType" class="form-select text-xs">
+              <option value="cube" selected>150mm Standard Cube (22,500 mm²)</option>
+              <option value="cylinder">150x300mm Cylinder (17,671 mm²)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Specified Concrete Grade</label>
+            <select name="concreteGrade" class="form-select text-xs">
+              <option value="C20">C20 (20 MPa 28-Day Target)</option>
+              <option value="C25" selected>C25 (25 MPa 28-Day Target)</option>
+              <option value="C30">C30 (30 MPa 28-Day Target)</option>
+              <option value="C35">C35 (35 MPa 28-Day Target)</option>
+              <option value="C40">C40 (40 MPa 28-Day Target)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Curing Age at Test</label>
+            <select name="cureAge" class="form-select text-xs">
+              <option value="7">7 Days (Target: ~67% 28-day)</option>
+              <option value="14">14 Days (Target: ~85% 28-day)</option>
+              <option value="28" selected>28 Days (Target: 100% 28-day)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Maximum Failure Load (kN)</label>
+            <input type="number" name="appliedLoad" value="620" step="5" class="form-input text-xs" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Measured Fresh Slump (mm)</label>
+            <input type="number" name="measuredSlump" value="110" step="5" class="form-input text-xs" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Target Slump (mm) ± 25mm</label>
+            <input type="number" disabled value="100" class="form-input text-xs" style="background: var(--bg-subtle);" />
+          </div>
+        </form>
+
+        <!-- Live Results Calculation Display -->
+        <div class="card-clean" style="background: var(--bg-subtle); display: flex; flex-direction: column; gap: 0.75rem;">
+          <div class="flex items-center justify-between" style="padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-light);">
+            <span class="text-xs font-mono uppercase text-secondary font-bold">Computed Engineering Stress</span>
+            <span id="calc-strength-badge" class="technical-pill" style="font-weight: 700; color: var(--accent-green);">
+              COMPLIANT (ASTM C39)
+            </span>
+          </div>
+
+          <div class="grid grid-4 gap-2 text-center">
+            <div class="card-clean" style="padding: 0.5rem;">
+              <span class="text-secondary font-mono" style="font-size: 0.65rem; display: block;">Measured Strength</span>
+              <span id="calc-result-stress" class="text-sm font-bold text-primary block" style="margin-top: 0.2rem;">27.56 MPa</span>
+            </div>
+            <div class="card-clean" style="padding: 0.5rem;">
+              <span class="text-secondary font-mono" style="font-size: 0.65rem; display: block;">Expected Target</span>
+              <span id="calc-result-target" class="text-xs font-bold text-secondary block" style="margin-top: 0.2rem;">25.00 MPa</span>
+            </div>
+            <div class="card-clean" style="padding: 0.5rem;">
+              <span class="text-secondary font-mono" style="font-size: 0.65rem; display: block;">Strength Ratio</span>
+              <span id="calc-result-ratio" class="text-sm font-bold block" style="color: var(--accent-green); margin-top: 0.2rem;">110%</span>
+            </div>
+            <div class="card-clean" style="padding: 0.5rem;">
+              <span class="text-secondary font-mono" style="font-size: 0.65rem; display: block;">Bearing Area</span>
+              <span id="calc-result-area" class="text-xs font-mono text-secondary block" style="margin-top: 0.2rem;">22,500 mm²</span>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-xs" style="padding-top: 0.5rem; border-top: 1px solid var(--border-light);">
+            <span class="text-secondary">Fresh Concrete Workability (ASTM C143):</span>
+            <span id="calc-slump-badge" class="technical-pill font-mono" style="color: var(--accent-green); font-weight: 700;">
+              WITHIN TOLERANCE
+            </span>
+          </div>
+
+          <div id="calc-overall-banner" style="padding: 0.65rem 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light); font-size: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+            <!-- Updated via JS -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Clean, Synchronous Local JavaScript Scripts (NO external bundle or build step) -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
